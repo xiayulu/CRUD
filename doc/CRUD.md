@@ -1,4 +1,9 @@
+
+# Api
+
 An api is some kind of resource.
+
+## Overview
 
 For each api, we can do some Operations:
 
@@ -27,4 +32,14 @@ And some assotiated Operations:
 - Statistic
 - Throttle
 - ...
+
+## Api Operation
+
+Input -> [Prelude Operations] -> Operation -> [Post Operations] -> Output
+
+## Struct Design
+
+- Main Struct: includes all fields
+- Input Struct: subset of main
+- Output Struct: subset of main
 
