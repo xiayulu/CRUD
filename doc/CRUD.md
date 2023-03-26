@@ -11,14 +11,14 @@ For each api, we can do some Operations:
 
 For each operation, there are some associated types:
 
-- Input
-- Success
-- Error
+- Input: Header+Query+Body
+- Output: Ok(T)+Err(E)+Doc
 
 And some assotiated Operations:
 
 - Log
 - Permission
-- Static
+- Statistic
+- Throttle
 - ...
 
